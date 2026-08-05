@@ -4,10 +4,10 @@
 DEFAULT_COUNTRY="US"
 DEFAULT_STATE="California"
 DEFAULT_LOCALITY="Mountain View"
-DEFAULT_ORGANIZATION="crDroid"
-DEFAULT_ORG_UNIT="crDroid"
-DEFAULT_COMMON_NAME="crDroid"
-DEFAULT_EMAIL="contact@crdroid.net"
+DEFAULT_ORGANIZATION="IDM"
+DEFAULT_ORG_UNIT="IDM09"
+DEFAULT_COMMON_NAME="kronicsxx"
+DEFAULT_EMAIL="local@osk.com"
 
 # Prompt the user for each part of the subject line with defaults
 read -p "Enter country code [${DEFAULT_COUNTRY}] (C): " country
