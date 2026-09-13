@@ -40,15 +40,7 @@ echo "Using Subject Line:"
 echo "$subject"
 echo ""
 
-# Prompt the user to verify if the subject line is correct
-read -p "Is the subject line correct? [Y/n]: " confirmation
-confirmation=${confirmation:-Y}
-
-# Check the user's response
-if [[ $confirmation != "y" && $confirmation != "Y" ]]; then
-    echo "Exiting without changes."
-    exit 1
-fi
+# Clear Terminal
 clear
 
 make_key_nopass() {
